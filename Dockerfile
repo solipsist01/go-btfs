@@ -5,7 +5,8 @@ MAINTAINER TRON-US <support@tron.network>
 RUN apt-get update && apt-get install -y \
   libssl-dev \
   ca-certificates \
-  fuse
+  fuse \
+  lib32stdc++6
 
 ENV SRC_DIR /go-btfs
 
